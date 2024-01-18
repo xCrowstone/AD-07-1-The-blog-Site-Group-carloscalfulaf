@@ -14,6 +14,45 @@ html {
     / 1fr;
   gap: 8px;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
 .header { grid-area: header; }
 .main { grid-area: main; }
-.footer { grid-area: footer; }
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+/* Puedes agregar estilos adicionales según tus preferencias */
+
+
+.footer-section a {
+  text-decoration: none;
+  color: #FFA500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
