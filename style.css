@@ -66,7 +66,11 @@ body {
   line-height: 1.6;
 }
 .header { grid-area: header; }
-.main { grid-area: main; }
+
+.main { 
+  grid-area: main;
+  padding: 7%;
+}
 
 footer {
   background-color: #333;
