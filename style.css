@@ -71,6 +71,13 @@ body {
   grid-area: main;
   padding: 7%;
 }
+.left{
+  display: inline;
+  float: right;
+  max-width: 45%;
+  margin-bottom: 10px;
+  margin-right: 10%;
+}
 
 footer {
   background-color: #333;
