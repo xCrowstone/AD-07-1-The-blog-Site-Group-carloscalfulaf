@@ -64,8 +64,17 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-color: black;
 }
 .header { grid-area: header; }
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
 
 .main { 
   grid-area: main;
