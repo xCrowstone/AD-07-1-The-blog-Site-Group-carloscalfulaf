@@ -1,3 +1,47 @@
+/*Navegador*/
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+.navegador {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Color de fondo de la barra de navegación */
+  padding: 10px; /* Espaciado interno para los elementos dentro de la barra de navegación */
+  text-align: left; /* Alineación del texto al centro */
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; /* Alinear verticalmente los elementos de la barra */
+}
+.nav-a {
+  padding: 0px; /* Ajusté el padding a 0 para evitar espacio adicional */
+  margin-left: -40px;
+  font-size: 35px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: none; 
+}
+.lista {
+  list-style: none; /* Elimina los puntos de la lista */
+  display: flex; /* Utilizo flex para alinear horizontalmente los elementos de la lista */
+  align-items: center; /* Alinear verticalmente los elementos de la lista */
+}
+.elemento-nav {
+  margin-right: 40px; /* Reduje el espaciado entre elementos de navegación */
+}
+.link-nav {
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: white; /* Color del texto del enlace */
+  font-weight: bold; /* Establece la negrita del texto del enlace */
+  font-size: 25px; /* Ajusté el tamaño de fuente del texto del enlace */
+}
+.link-nav:hover {
+  color: #908f8c; /* Cambia el color del texto al pasar el mouse sobre el enlace */
+}
+/*Footer*/
 html {
   height: 100%;
   width: 100%;
