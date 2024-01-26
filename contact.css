@@ -1,0 +1,127 @@
+/*Navegador*/
+body, ul {
+    margin: 0;
+    padding: 0;
+  
+  }
+  .navegador {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 10px; /* Espaciado interno para los elementos dentro de la barra de navegación */
+    text-align: left; /* Alineación del texto al centro */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; /* Alinear verticalmente los elementos de la barra */
+  }
+  
+  .nav-a {
+    padding: 0px; /* Ajusté el padding a 0 para evitar espacio adicional */
+    margin-left: -40px;
+    font-size: 35px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none; 
+  }
+  .lista {
+    list-style: none; /* Elimina los puntos de la lista */
+    display: flex; /* Utilizo flex para alinear horizontalmente los elementos de la lista */
+    align-items: center; /* Alinear verticalmente los elementos de la lista */
+  }
+  .elemento-nav {
+    margin-right: 40px; /* Reduje el espaciado entre elementos de navegación */
+  }
+  .link-nav {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: white; /* Color del texto del enlace */
+    font-weight: bold; /* Establece la negrita del texto del enlace */
+    font-size: 25px; /* Ajusté el tamaño de fuente del texto del enlace */
+  }
+  .link-nav:hover {
+    color: #908f8c; /* Cambia el color del texto al pasar el mouse sobre el enlace */
+  }
+  /*Footer*/
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  .layout {
+    width: 1366px;
+    height: 768px;
+  
+    display: grid;
+    grid:
+      "header" auto
+      "main" 1fr
+      "footer" auto
+      / 1fr;
+    gap: 8px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/606/242/399/nintendo-super-mario-video-games-retro-games-wallpaper-preview.jpg);
+   
+  
+  }
+  
+  .header { grid-area: header; }
+  
+  h1 {
+    color: white;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  .main { 
+    grid-area: main;
+    padding: 7%;
+  }
+  .left{
+    display: inline;
+    float: right;
+    max-width: 45%;
+    margin-bottom: 10px;
+    margin-right: 10%;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    text-align: center;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  /* Puedes agregar estilos adicionales según tus preferencias */
+  
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #FFA500;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
